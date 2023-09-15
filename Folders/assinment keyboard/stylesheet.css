@@ -1,0 +1,47 @@
+
+.keystyle{
+
+    padding: 12px;
+    margin: 5px;
+    font-size: larger;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.row{
+    
+    text-align: center;
+}
+.specialkey{
+    color: darkslategray;
+    padding: 12px;
+    font-size: larger;
+    background-color: black;
+    border: 0px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.spacest{
+    padding: 12px;
+    font-size: larger;
+    background-color: darkslategrey;
+    width: 300px;
+    border-radius: 10px;
+    cursor: grab;
+
+}
+.raw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+    cursor: pointer;
+}
+.keyback{
+    background-color: black;
+    
+}
+.downsid{
+    background-color: darkslategrey;
+}

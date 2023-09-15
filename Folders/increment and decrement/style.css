@@ -1,0 +1,26 @@
+.modi{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content:center;
+    
+}
+.key{
+    border: none;
+    padding: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 50px;
+    background-color: rgba(37, 3, 17, 0.932);
+    
+}
+.key1{
+    border: none;
+    padding: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 50px;
+    background-color: rgba(37, 3, 17, 0.932);
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="stylesheet.css">
+<body>
+    <h1><center>keyboard for checking space</center></h1>
+    <div class="raw">
+    <h1 class="input" ></h1>
+    <u><p class="output"></p></u>
+    <u><p class="vowels"></p></u>
+    <u><p class="pd"></p></u>
+    </div>
+    <div class="keyback">
+    <div class="row">
+        <tr>
+            <td>
+                <button class="keystyle" onclick="key('Q')">Q</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('W')">W</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('E')">E</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('R')">R</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('T')">T</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('Y')">Y</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('U')">U</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('I')">I</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('O')">O</button>
+
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('P')">P</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="backspace()">Backspace</button>
+            </td>
+        </tr>
+    </div>
+    <div class="row">
+        <tr>
+            <td>
+                <button class="keystyle" onclick="key('A')">A</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('S')">S</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('D')">D</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('F')">F</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('G')">G</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('H')">H</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('J')">J</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('K')">K</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('L')">l</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="enter()">Enter</button>
+            </td>
+        </tr>
+    </div>
+    <div class="row">
+        <tr>
+            <td>
+                <button class="keystyle" onclick="key('Z')">Z</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('X')">X</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('C')">C</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('V')">V</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('B')">B</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('N')">N</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="key('M')">M</button>
+            </td>
+            <td>
+                <button class="keystyle" onclick="clearr()">claer</button>
+            </td>
+    </div>
+    <div class="row">
+        <button class="spacest" onclick="space()">space</button>
+    </div>
+    </div>
+    <div class="downsid">
+        <div class="row">
+        <button class="specialkey" onclick="countSpace(input)">space count</button>
+        <button class="specialkey" onclick="countvowel(input)">vowel</button>
+        <button  class="specialkey" onclick="poli()">palindrom</button>
+        <button  class="specialkey" onclick="arm()">Armstorng</button>
+        <button  class="specialkey" onclick="smalll()">Small letter</button>
+    </div>
+    </div>
+    <script src="hero.js"></script>
+</body>
+</html>

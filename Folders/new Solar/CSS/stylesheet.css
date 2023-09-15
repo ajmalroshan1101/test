@@ -1,0 +1,236 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sun{
+    /* background-color: bisque; */
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subsun{
+    position: absolute;
+    /* background-color: bisque; */
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    margin-top: -55px;
+    z-index: 1;
+}
+.mercury{
+    position: absolute;
+    width: 180px;
+    height:180px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: rotate3d(1,1,-1,90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mersub{
+    position: absolute;
+width: 40px;
+height: 40px;
+animation: mer 5s infinite linear;
+}
+.venus{
+    position: absolute;
+    width: 280px;
+    height:280px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: rotate3d(1,1,-1,90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.vensub{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: veen 4s infinite linear; 
+}
+.earth{
+    position: absolute;
+    width: 380px;
+    height:380px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: rotate3d(1,1,-1,90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.subearth{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: earth 5s infinite linear;  
+     
+}
+.mars{
+    position: absolute;
+    width: 480px;
+    height:480px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: rotate3d(1,1,-1,90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.submars{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: mars 5.5s infinite linear;  
+}
+.jupiter{
+    position: absolute;
+    width: 580px;
+    height:580px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: rotate3d(1,1,-1,90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.subjup{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: jup 6s infinite linear;    
+}
+.saturn{
+    position: absolute;
+    width: 680px;
+    height:680px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: rotate3d(1,1,-1,90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+.subsat{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: sat 8s infinite linear;      
+}
+.uranus{
+    position: absolute;
+    width: 780px;
+    height:780px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: rotate3d(1,1,-1,90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+.subura{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: ura 8s infinite linear;    
+}
+.neptune{
+    position: absolute;
+    width: 880px;
+    height:880px;
+    border: 2px solid;
+    border-radius: 50%;
+    transform: rotate3d(1,1,-1,90deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.subnep{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    animation: nep 8s infinite linear;    
+}
+
+@keyframes mer{
+    0%{
+        transform: rotate(0deg)translate(90px);
+    }
+    100%{
+        transform: rotate(360deg) translate(90px);
+    }
+}
+
+@keyframes veen{
+    0%{
+        transform: rotate(0deg)translate(140px);
+    }
+    100%{
+        transform: rotate(360deg)translate(140px);
+    }
+}
+@keyframes earth{
+    0%{
+        transform: rotate(0deg)translate(190px);
+    }
+    100%{
+        transform: rotate(360deg)translate(190px);
+    }
+}
+@keyframes mars{
+    0%{
+        transform: rotate(0deg)translate(240px);
+    }
+    100%{
+        transform: rotate(360deg)translate(240px);
+    }
+}
+@keyframes jup{
+    0%{
+        transform: rotate(0deg)translate(290px);
+    }
+    100%{
+        transform: rotate(360deg)translate(290px);
+    }
+}
+@keyframes sat{
+    0%{
+        transform: rotate(0deg)translate(340px);
+    }
+    100%{
+        transform: rotate(360deg)translate(340px);
+    }
+}
+@keyframes ura{
+    0%{
+        transform: rotate(0deg)translate(390px);
+    }
+    100%{
+        transform: rotate(360deg)translate(390px);
+    }
+}
+@keyframes nep{
+    0%{
+        transform: rotate(0deg)translate(440px);
+    }
+    100%{
+        transform: rotate(360deg)translate(440px);
+    }
+}
+

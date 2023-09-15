@@ -1,0 +1,62 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: dimgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: bodyy 5s infinite alternate;
+}
+.box{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    animation: body 5s infinite alternate;
+    
+}
+.ball{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation: shapech 5s infinite alternate;
+    /* animation-direction: alternate; */
+}
+@keyframes shapech{
+    0%   {
+        background: red; 
+        left: 0px; top: 0px;}
+    25%  {
+        background: yellow; 
+        left: 400px; top: 0px;}
+    50% {
+        background-color: chartreuse;
+        left: 400px;top: 400px;
+    }
+    75%{
+        background-color: brown;
+        left: 0px;top: 400px;
+    }
+    100%{
+        background-color: darkgoldenrod;
+        left: 0px;top: 0px;
+        border-radius: 50%;
+    }
+}
+@keyframes bodyy{
+    0%{
+        background-color: skyblue;
+    }
+    100%{
+        background-color: aqua;
+    }
+}
+@keyframes body{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg); 
+    }
+}
